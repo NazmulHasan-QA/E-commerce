@@ -3,6 +3,7 @@ package Library;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -133,6 +134,11 @@ public class CommonMethod {
     {
 
        return driver.getPageSource();
+    }
+    public static void selectByValue(WebDriver driver, By locator, String value) {
+        WebElement dropdownElement = driver.findElement(locator);
+        Select dropdown = new Select(dropdownElement);
+        dropdown.selectByValue(value);
     }
 
 

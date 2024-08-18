@@ -20,3 +20,5 @@ public class TestSearchPage extends Base{
         searchObject.testSearchWithBlankData(driver);
     }
 }
+
+
