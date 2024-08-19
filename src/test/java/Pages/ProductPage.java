@@ -35,6 +35,7 @@ public class ProductPage {
         assertTrue(CommonMethod.ButtonEnableOrNot(productIncreaseButton, driver), "Is not enable");
         CommonMethod.doubleClick(productIncreaseButton, driver);
         assertTrue(CommonMethod.ButtonEnableOrNot(productDecreaseButton, driver), "Is not enable");
+        
         CommonMethod.click(productDecreaseButton, driver);
         System.out.println("Product details:");
         CommonMethod.printElementHtml(productName,driver);
