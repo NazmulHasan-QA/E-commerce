@@ -1,4 +1,4 @@
-/*package Test;
+package Test;
 
 import Pages.ProductPage;
 import Pages.productAddToCart;
@@ -22,4 +22,4 @@ public class productAddToCartTest extends Base {
 
 }
 
- */
+
