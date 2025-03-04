@@ -15,8 +15,6 @@ public class productAddToCartTest extends Base {
             {
                 productObject.productDetails(driver);
                 cartObject.addingToCart(driver);
-
-
             }
 
 
