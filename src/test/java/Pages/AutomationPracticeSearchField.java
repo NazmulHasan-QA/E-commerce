@@ -25,7 +25,7 @@ public class AutomationPracticeSearchField {
         CommonMethod.findelement(searchField, driver);
         assert CommonMethod.gettingPageSource(driver).contains(validSearchData) : "Search results not found for 'Printed Summer Dress'";
     }
-        //Test with invalid search data
+      //  Test with invalid search data
         public void testSearchWithInvalidData(WebDriver driver) {
             CommonMethod.Clear(searchField, driver);
             CommonMethod.sendData(searchField, driver, InValidSearchData);
