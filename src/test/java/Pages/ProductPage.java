@@ -14,7 +14,7 @@ public class ProductPage {
         CommonMethod.click(plusIcon, driver);
         CommonMethod.click(minusIcon, driver);
         assertTrue(CommonMethod.ButtonEnableOrNot(dropDownButton, driver));
-        CommonMethod.click(dropDownButton, driver);
+        CommonMethod.click(dropDownButton, driver)
         CommonMethod.arrowDownKey(dropDownButton, driver);
         //  CommonMethod.unLocatedElementArrowDownKey(dropDownButton,driver);
         CommonMethod.pressEnter(dropDownButton, driver);
@@ -35,7 +35,6 @@ public class ProductPage {
         assertTrue(CommonMethod.ButtonEnableOrNot(productIncreaseButton, driver), "Is not enable");
         CommonMethod.doubleClick(productIncreaseButton, driver);
         assertTrue(CommonMethod.ButtonEnableOrNot(productDecreaseButton, driver), "Is not enable");
-        
         CommonMethod.click(productDecreaseButton, driver);
         System.out.println("Product details:");
         CommonMethod.printElementHtml(productName,driver);
