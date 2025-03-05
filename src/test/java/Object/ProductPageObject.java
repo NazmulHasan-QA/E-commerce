@@ -22,6 +22,7 @@ public class ProductPageObject {
     public static By productIncreaseButton = By.xpath("//i[contains(@class,'icon-plus')]");
     public static By productDecreaseButton = By.xpath("//i[contains(@class,'icon-minus')]");
     public static By productName = By.xpath("//h1[.='Blouse']");
+    
     public static By productCondition = By.xpath("//span[.='New product']");
     public static By fullDetails = By.cssSelector("div[id='short_description_content'] p");
 
