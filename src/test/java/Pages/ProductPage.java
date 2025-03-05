@@ -13,6 +13,7 @@ public class ProductPage {
         assertTrue(CommonMethod.ButtonEnableOrNot(plusIcon, driver), "Button is not enable");
         CommonMethod.click(plusIcon, driver);
         CommonMethod.click(minusIcon, driver);
+        
         assertTrue(CommonMethod.ButtonEnableOrNot(dropDownButton, driver));
         CommonMethod.click(dropDownButton, driver);
         CommonMethod.arrowDownKey(dropDownButton, driver);
